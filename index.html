@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +13,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
-    /* (CSS remains unchanged) */
     * {
       margin: 0;
       padding: 0;
@@ -196,13 +196,18 @@
       from { opacity: 0; transform: translateY(20px); }
       to { opacity: 1; transform: translateY(0); }
     }
+
+    .banner img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
   </style>
 </head>
 <body>
   <header>
-    <!-- ✅ Shopify logo displayed from online source -->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Shopify_logo_2018.svg" alt="Shopify Support Hub Logo" class="logo">
-
+    <img src="https://cdn.shopify.com/assets/images/logos/shopify-bag.png
+" alt="Shopify Support Hub Logo" class="logo">
     <h1>Shopify Support Hub</h1>
     <p>Speak with a Live Shopify Expert – Fast Help for Store Fixes & Issues</p>
     <div class="cta-container">
@@ -214,6 +219,11 @@
       </a>
     </div>
   </header>
+
+  <!-- ✅ Banner section with image only -->
+  <section class="banner">
+    <img src="https://cdn.shopify.com/shopifycloud/help-center/assets/desktop-DCqX0wRs.jpg" alt="Shopify Promo Banner">
+  </section>
 
   <section class="about">
     <h2>Real-Time Help from Verified Shopify Experts</h2>
@@ -260,6 +270,14 @@
       </a>
     </div>
   </section>
+
+ }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://media.istockphoto.com/id/2153656363/vector/headset-with-microphone-vector-icon.jpg?s=612x612&w=0&k=20&c=ZzwVB9xwVG0tN9FSgrcbPOKd5H-W0t1jWBT-aCx4T8k=" alt="Shopify Support Hub Logo" class="logo">
+
 
   <footer>
     <p>&copy; 2025 Shopify Support Hub. All rights reserved.</p>
